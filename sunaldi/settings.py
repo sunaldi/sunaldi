@@ -49,8 +49,6 @@ if not PRODUCTION:
 # Application definition
 
 INSTALLED_APPS = [
-    'jet.dashboard',
-    'jet',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -164,6 +162,3 @@ for directory in [*STATICFILES_DIRS, STATIC_ROOT]:
 # Enable compression of static files.
 # You can remove this if it causes problems on your setup.
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
-
-# Configure autofield (for JET).
-DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
