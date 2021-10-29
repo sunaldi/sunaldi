@@ -1,4 +1,4 @@
-# sunaldi
+# Sunaldi (SMANUAT United Alumni Directory)
 
 [![Test and Deploy][actions-badge]][commits-gh]
 [![pipeline status][pipeline-badge]][commits-gl]
@@ -6,8 +6,6 @@
 
 Repositori ini berisi sebuah templat untuk membuat proyek Django yang siap
 di-*deploy* ke Heroku melalui GitHub Actions atau GitLab CI.
-
-*To view this file in English, [click here][readme-en].*
 
 ## Daftar isi
 
