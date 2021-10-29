@@ -161,6 +161,6 @@ STATICFILES_DIRS = [
 for directory in [*STATICFILES_DIRS, STATIC_ROOT]:
     directory.mkdir(exist_ok=True)
 
-# Enable compression and caching features of whitenoise.
+# Enable compression of static files.
 # You can remove this if it causes problems on your setup.
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
