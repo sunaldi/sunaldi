@@ -1,9 +1,12 @@
 from django.urls import path
 
-from . import views
+from main.views import index, article, privacy, terms
 
 app_name = 'main'
 
 urlpatterns = [
-    path('', views.home, name='home'),
+    path('', index, name='index'),
+    path('article', article, name='article'),
+    path('privacy', privacy, name='privacy'),
+    path('terms', terms, name='terms'),
 ]
