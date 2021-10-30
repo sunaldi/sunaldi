@@ -11,3 +11,5 @@ def privacy(request):
 
 def terms(request):
     return render(request, 'terms.html')
+
+# https://stackoverflow.com/questions/2459979/how-to-import-csv-data-into-django-models
