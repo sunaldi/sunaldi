@@ -16,7 +16,7 @@ Sunaldi (SMANUAT United Alumni Directory) adalah situs web yang menyediakan data
 
 Jika Anda adalah alumni SMAN Unggul Aceh Timur yang ingin berkontribusi dalam pembuatan situs web ini, berikut adalah langkah-langkah yang perlu dilakukan.
 
-1. Pastikan Anda memiliki kompetensi di Python, Django, HTML, CSS, dan Bootstrap. Kemampuan dalam AJAX menjadi nilai tambahan.
+1. Pastikan Anda memiliki kompetensi di Python, Django, HTML, CSS, dan Bootstrap. Kemampuan dalam AJAX dan/atau Fetch API menjadi nilai tambahan.
 2. Laporkan diri Anda ke [Muhammad Athallah][email-athal] untuk ditambahkan sebagai _maintainer_ dari Sunaldi.
 3. Clone repo sunaldi ke _local workspace_ Anda dan buatlah branch baru dengan perintah `git checkout -b [NAMA_BRANCH]`.
 4. Untuk memulai modul baru, gunakan perintah `python manage.py startapp [NAMA_MODUL]`.
