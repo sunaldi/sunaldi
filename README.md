@@ -23,7 +23,7 @@ Jika Anda adalah alumni SMAN Unggul Aceh Timur yang ingin berkontribusi dalam pe
 5. Apabila Anda menambahkan atau mengubah model, jangan lupa lakukan `python manage.py makemigrations` dan `python manage.py migrate`.
 6. Untuk menjalankan server di _local workspace_ Anda, gunakan perintah `python manage.py runserver`.
 7. Untuk mengunggah hasil kerja Anda pada branch Anda, gunakan empat mantra ajaib Git: `git pull origin master`, `git add .`, `git commit -m [PESAN_ANDA]`, dan `git push origin [NAMA_BRANCH]`.
-8. Untuk menerapkan hasil kerja Anda secara permanen, gunakan fitur **Pull Request** pada situs web repo. **<u>Jangan pernah mengunggah hasil kerja Anda secara langsung ke branch main.</u>**
+8. Untuk menerapkan hasil kerja Anda secara permanen, gunakan fitur **Pull Request** pada situs web repo. **Jangan pernah mengunggah hasil kerja Anda secara langsung ke branch main.**
 9. Apabila terdapat pertanyaan, kritik, ataupun saran, silakan kontak Athal melalui [surat elektroniknya][email-athal].
 
 
